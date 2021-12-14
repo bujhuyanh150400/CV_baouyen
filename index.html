@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/style.css">
+        <!-- Link fontawsomes -->
+        <script src="https://kit.fontawesome.com/ecc4c4d503.js" crossorigin="anonymous"></script>
+       
+       <title>Ngac Bao Uyen</title>
+</head>
+<body>
+    <!-- Header -->
+<header>
+    <div id="nav">
+        <div class="nav_logo">
+            <a href="#">Baouyen.co</a>
+        </div>
+        <ul class="nav_menu">
+            <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#About"><i class="fas fa-female"></i>About</a></li>
+            <li><a href="#Skill"><i class="fas fa-book"></i>Skill</a></li>
+            <li><a href="#Contact"><i class="fas fa-phone"></i>Contact</a></li>
+        </ul>
+        <div class="nav_icon-menu">
+            <i class="fas fa-bars js_nav-menu"  ></i>
+        </div>
+    </div>
+    <!-- Modal:nav-menu responsive -->
+    <div class="modal js-nav_modal">
+        <div class="modal-container js-nav_modal-container">       
+            <ul class="modal_nav-menu">
+                <li><a class="modal_nav-menu-link" href="#About"><i class="fas fa-female"></i>About</a></li>
+                <li><a class="modal_nav-menu-link" href="#Skill"><i class="fas fa-book"></i>Skill</a></li>
+                <li><a class="modal_nav-menu-link" href="#Contact"><i class="fas fa-phone"></i>Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End: Modal:nav-menu responsive -->
+</header>
+    <!-- End:Header -->
+
+    <!-- Content -->
+
+    <!-- info -->
+    <div id="Info">
+        <div class="info_content">
+            <h3>Hello.</h3>
+            <h2>My name is...</h2>
+            <h1>NGAC BAO UYEN</h1>
+        </div>  
+        <div class="info_img">
+            <img src="./img/info.jpg">
+        </div>
+    </div>
+    <!-- End:info -->
+
+    <!-- About -->
+    <div id="About">
+        <div class="about_title">
+            <span>About me</span>
+        </div>
+        <div class="about_content">
+            <div class="about_img">
+                <img src="./img/about_img.jpg">
+            </div>
+            <div class="about_infomation">
+                <span>Name: Ngac Bao Uyen</span>
+                <br>
+                <br>
+                <span>Birth: 16/12/1999</span>
+                <br>
+                <br>
+                <span>Born: Hanoi,Vietnam</span>
+                <br>
+                <br> 
+                <p class="about_paragraph">
+                    Let me introduce myself first. 
+                    <br>
+                    I’m Uyen,
+                    When I work, I will always try to get 100% done, and if I can't, I will try again to achieve your KPI. I'm not deterred by any difficulty or task, instead, I like to be enthusiastic and work to solve problems and bring satisfaction to you.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End:About -->
+
+    <!-- Skill -->
+    <div id="Skill">
+        <div class="skill_infomation">
+            <span class="skill_title">
+                About my skill
+            </span>
+            <p class="skill_paragraph">
+                These are the skills I have,
+                <br>
+                and I'm still studying on so I can get the best out of it
+            </p>
+            <div class="skill_exe">
+                <div class="skill_box">
+                    <div class="skill_topic"><i class="fas fa-book"></i>Content writing</div>
+                    <div class="skill_percent" style="--percent: 70%">70%</div>
+                </div>
+                <div class="skill_box">
+                    <div class="skill_topic"><i class="fas fa-file-word"></i><i class="fas fa-file-excel"></i>Word, Excel</div>
+                    <div class="skill_percent" style="--percent: 50%">50%</div>
+                </div>
+                <div class="skill_box">
+                    <div class="skill_topic"><i class="fab fa-google"></i>Google docs</div>
+                    <div class="skill_percent" style="--percent: 60%">60%</div>
+                </div>
+                <div class="skill_box">
+                    <div class="skill_topic"><i class="fas fa-language"></i>English</div>
+                    <div class="skill_percent" style="--percent: 70%">70%</div>
+                </div>
+            </div>
+        </div>
+        <div class="skill_img">
+            <img src="./img/skill_img.jpg" width="300" height="500">
+        </div>
+    </div>
+    <!-- End:Skill -->
+
+    <!-- Contact -->
+    <div id="Contact">
+        <div class="contact_logo">
+            <a href="#" class="contact_logo-title">
+                Baouyen.co
+            </a>
+            <p class="contact_logo-powered">
+                Powered by Huy Anh B.| © 2021 All Rights Reserved
+            </p>
+        </div>
+        <ul class="contact_icon">
+            <li class="icon_js_contact"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="icon_js_contact"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="icon_js_contact"><a href="#"><i class="fas fa-phone"></i></a></li>
+            <li class="icon_js_contact"><a href="#"><i class="fas fa-envelope-open-text"></i></a></li>
+            <li class="icon_js_contact"><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>   
+        </ul>
+    </div>
+    <!-- End:Contact -->
+    <!-- End:Content -->
+
+    <!-- Js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('#nav',{delay:200});
+        ScrollReveal().reveal('.info_content',{delay:600});
+        ScrollReveal().reveal('.info_img',{delay:600});
+        ScrollReveal().reveal('.about_title',{delay:600});
+        ScrollReveal().reveal('.about_content',{delay:600});
+        ScrollReveal().reveal('.about_img',{delay:600});
+        ScrollReveal().reveal('.about_infomation',{delay:600});
+        ScrollReveal().reveal('.skill_infomation',{delay:600});
+        ScrollReveal().reveal('.skill_exe',{delay:600});
+        ScrollReveal().reveal('.contact_logo',{delay:600});
+        ScrollReveal().reveal('.icon_js_contact',{delay:600});
+     
+
+    </script>
+    <script src="./assets/script.js"></script>
+    
+</body>
+</html>
